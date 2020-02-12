@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3e3b4e7-1be9-46ab-8cf0-a3cc31516e65" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/restapi/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/restapi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/src/main/java/fr/project/multimodule/restapi/controllers/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/restapi/src/main/java/fr/project/multimodule/restapi/controllers/SampleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restapi/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/restapi/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/src/main/java/fr/project/multimodule/services/SampleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/src/main/java/fr/project/multimodule/services/SampleService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +152,7 @@
       <workItem from="1581363414032" duration="1810000" />
       <workItem from="1581365275902" duration="1998000" />
       <workItem from="1581437039852" duration="2184000" />
-      <workItem from="1581495452071" duration="13381000" />
+      <workItem from="1581495452071" duration="22248000" />
     </task>
     <servers />
   </component>

@@ -1,9 +1,11 @@
 package fr.project.multimodule.restapi.controllers;
 
 import fr.project.multimodule.data.entities.SampleEntity;
+import fr.project.multimodule.services.SampleService;
 import fr.project.multimodule.services.interfaces.ISampleService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -22,6 +24,8 @@ public class SampleController {
     @Autowired
     private ISampleService sampleService;
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(SampleService.class);
+
     public SampleController() {}
 
     @RequestMapping(value = "", method = RequestMethod.GET)
@@ -30,11 +34,13 @@ public class SampleController {
 
         try {
             entities = this.sampleService.getAll();
+            LOGGER.info(entities.toString());
 
             return ResponseEntity.ok(new HashMap<String, Object>() {
                 { put("entities", entities); }
             });
         } catch (Exception ex) {
+            LOGGER.error(ex.getMessage());
             return new ResponseEntity<>(new HashMap<String, Object>() {
                 { put("Message", ex.getMessage()); }
             }, HttpStatus.INTERNAL_SERVER_ERROR);
