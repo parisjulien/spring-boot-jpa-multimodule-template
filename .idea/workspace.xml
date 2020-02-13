@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3e3b4e7-1be9-46ab-8cf0-a3cc31516e65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/restapi/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/test/java/fr/project/multimodule/data/SampleRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/src/test/java/fr/project/multimodule/services/SampleServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/resources/import.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/restapi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restapi/src/main/java/fr/project/multimodule/restapi/controllers/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/restapi/src/main/java/fr/project/multimodule/restapi/controllers/SampleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restapi/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/restapi/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/src/main/java/fr/project/multimodule/services/SampleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/src/main/java/fr/project/multimodule/services/SampleService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +48,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/restapi/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
@@ -65,6 +70,11 @@
       <recent name="D:\Workspace\multimodule\restapi\src\main\resources" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install site" />
+    </option>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -83,7 +93,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.RestapiApplication">
-    <configuration name="DataApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="SampleRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data" />
       <extension name="coverage">
         <pattern>
@@ -91,10 +101,36 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="fr.project.multimodule.data.DataApplication" />
+      <option name="PACKAGE_NAME" value="fr.project.multimodule.data" />
+      <option name="MAIN_CLASS_NAME" value="fr.project.multimodule.data.SampleRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="SampleServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="services" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.project.multimodule.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.project.multimodule.services" />
+      <option name="MAIN_CLASS_NAME" value="fr.project.multimodule.services.SampleServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="surefire-report.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/multimodule/data/target/site/surefire-report.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="surefire-report.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/multimodule/services/target/site/surefire-report.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="surefire-report.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/multimodule/restapi/target/site/surefire-report.html" useBuiltInWebServerPort="true">
+      <method v="2" />
     </configuration>
     <configuration name="DataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="data" />
@@ -119,7 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.DataApplication (1)" />
+        <item itemvalue="JavaScript Debug.surefire-report.html (1)" />
+        <item itemvalue="JUnit.SampleServiceTest" />
+        <item itemvalue="JUnit.SampleRepositoryTest" />
+        <item itemvalue="JavaScript Debug.surefire-report.html (2)" />
+        <item itemvalue="JavaScript Debug.surefire-report.html" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +170,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@51698c72" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@13a971ac" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -152,7 +192,8 @@
       <workItem from="1581363414032" duration="1810000" />
       <workItem from="1581365275902" duration="1998000" />
       <workItem from="1581437039852" duration="2184000" />
-      <workItem from="1581495452071" duration="22248000" />
+      <workItem from="1581495452071" duration="24637000" />
+      <workItem from="1581583537808" duration="15086000" />
     </task>
     <servers />
   </component>
@@ -164,7 +205,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
